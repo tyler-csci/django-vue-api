@@ -20,10 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '9tt=f*qnd&ky%&()0d9x=7pp0*xn*qn$pgje1zds=b&ph7m61+'
+DEBUG = False
+SECRET_KEY = os.environ['SECRET_KEY']
+ALLOWED_HOSTS = ['django-vue-template.herokuapp.com', 'localhost']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
