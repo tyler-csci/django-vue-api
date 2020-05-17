@@ -19,8 +19,3 @@ npm run build --report
 
 ### run the server
 python3 manage.py runserver
-# tyler-csci-django-vue-api
-# tyler-csci-django-vue-api
-# tyler-csci-django-vue-api
-# tyler-csci-django-vue-api
-# django-vue-api
